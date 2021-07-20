@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iOh-JF-G9R">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iOh-JF-G9R">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -37,7 +37,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="kQp-Gn-IMS" customClass="RebecconomyTableViewCell" customModule="Rebecconomy" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="90.5"/>
+                                        <rect key="frame" x="0.0" y="24.5" width="414" height="90.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kQp-Gn-IMS" id="KzG-G0-6Sg">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="90.5"/>
@@ -141,14 +141,11 @@
                         <constraints>
                             <constraint firstItem="dVf-4u-rEo" firstAttribute="bottom" secondItem="cJ4-0w-bGo" secondAttribute="bottom" constant="116" id="169-NB-BB4"/>
                             <constraint firstItem="Y2T-pu-71E" firstAttribute="top" secondItem="p2q-r2-GFZ" secondAttribute="bottom" constant="60" id="4cy-Xz-EZt"/>
-                            <constraint firstItem="p2q-r2-GFZ" firstAttribute="leading" secondItem="dVf-4u-rEo" secondAttribute="leading" constant="20" id="FVV-nf-zVq"/>
                             <constraint firstItem="p2q-r2-GFZ" firstAttribute="leading" secondItem="dVf-4u-rEo" secondAttribute="leading" constant="20" id="NPI-FF-799"/>
                             <constraint firstItem="Y2T-pu-71E" firstAttribute="leading" secondItem="dVf-4u-rEo" secondAttribute="leading" constant="20" id="REk-e8-jJF"/>
-                            <constraint firstItem="cJ4-0w-bGo" firstAttribute="top" secondItem="Y2T-pu-71E" secondAttribute="bottom" constant="454" id="Tx7-RC-aay"/>
                             <constraint firstItem="dVf-4u-rEo" firstAttribute="trailing" secondItem="p2q-r2-GFZ" secondAttribute="trailing" constant="20" id="j71-8g-MKh"/>
                             <constraint firstItem="dVf-4u-rEo" firstAttribute="trailing" secondItem="Y2T-pu-71E" secondAttribute="trailing" constant="20" id="sRK-g7-07K"/>
                             <constraint firstItem="cJ4-0w-bGo" firstAttribute="centerX" secondItem="dVf-4u-rEo" secondAttribute="centerX" id="uAm-4w-fOW"/>
-                            <constraint firstItem="dVf-4u-rEo" firstAttribute="trailing" secondItem="p2q-r2-GFZ" secondAttribute="trailing" constant="20" id="uIW-2a-TZk"/>
                             <constraint firstItem="p2q-r2-GFZ" firstAttribute="top" secondItem="dVf-4u-rEo" secondAttribute="top" constant="80" id="xDn-pO-QEW"/>
                         </constraints>
                     </view>
